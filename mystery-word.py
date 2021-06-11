@@ -64,7 +64,7 @@ def mystery_word_game():
         while tries == 8:
             print("You lose! Your word was: " + test)
             break
-        print(current_progress)
+        print("".join(current_progress))
 
 
 
